@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/todoitem_bg"
+    android:orientation="horizontal"
+    android:paddingTop="8sp"
+    android:paddingBottom="8sp"
+    android:id="@+id/btn_todo_item"
+    >
+
+    <CheckBox
+        android:id="@+id/btn_cb"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/app_name"
+        android:textSize="18sp" />
+</LinearLayout>

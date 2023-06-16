@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">CRI-Task</string>
+    <string name="msg_fields_empty">Im sorry, the fields cannot be empty.</string>
+    <string name="msg_db_error_insert">Something got wrong at inserting into the database</string>
+    <string name="app_item_created_at">Created at: %1$s</string>
+    <string name="todo_item_view_delete_item">Delete Item</string>
+    <string name="todo_item_view_edit_item">Edit Item</string>
+    <string name="dialog_want_to_delete">Do you want to delete it?</string>
+    <string name="dialog_opt_yes">YES</string>
+    <string name="dialog_opt_no">NO</string>
+    <string name="msg_error_delete_item">Something got wrong at deleting the item</string>
+    <string name="todo_item_btn_update_item">Update Item</string>
+    <string name="todo_item_btn_add_item">Add item</string>
+    <string name="msg_item_save_ok">The state was save correctly</string>
+    <string name="msg_item_save_error">We couldn\'t save the state</string>
+    <string name="todo_item_description_of_the_item">Description of the task:</string>
+    <string name="todo_item_title_of_the_item">Title of the task</string>
+</resources>
